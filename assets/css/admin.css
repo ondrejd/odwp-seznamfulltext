@@ -1,0 +1,92 @@
+/**
+ * Seznam Fulltext Plugin
+ *
+ * @author Ondřej Doněk, <ondrejd@gmail.com>
+ * @link https://bitbucket.com/ondrejd/odwp-seznamfulltext for the canonical source repository
+ * @license https://www.mozilla.org/MPL/2.0/ Mozilla Public License 2.0
+ */
+
+.inner-description-para {
+  margin-top: 0px;
+  padding-left: 25px;
+}
+
+.inputs-subarea {
+  padding-left: 25px;
+}
+
+#odwp-seznamfulltext_is_registered {}
+#odwp-seznamfulltext_is_registered .inside {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+#odwp-seznamfulltext_is_registered .description-box {
+  padding: 0px 12px 0px 12px;
+}
+#odwp-seznamfulltext_is_registered .skip_registration-box {
+  padding: 0px 12px 12px 12px;
+}
+#odwp-seznamfulltext_is_registered .is-new-post .skip_registration-box {
+  padding-top: 12px;
+}
+#odwp-seznamfulltext_is_registered .button-box {
+  background: #F5F5F5 none repeat scroll 0% 0%;
+  border-top: 1px solid #DDD;
+  clear: both;
+  padding: 10px;
+  text-align: right;
+}
+
+#odwp-seznamfulltext_is_registered .button-box .left-part {
+  line-height: 28px;
+  vertical-align: middle;
+  text-align: left;
+  float: left;
+}
+#odwp-seznamfulltext_is_registered .button-box a {
+  color: #a00;
+  text-decoration: none;
+}
+#odwp-seznamfulltext_is_registered .button-box a:hover {
+  color: #D12508;
+  text-decoration: none;
+  transition-property: border, background, color;
+  transition-duration: 0.05s;
+  transition-timing-function: ease-in-out;
+}
+
+#odwp-seznamfulltext_is_registered .button-box .right-part {
+  text-align: right;
+  float: right;
+  line-height: 23px;
+}
+
+#odwp-seznamfulltext_is_registered .button-box .right-part .spinner {
+  float: left;
+}
+
+.is_registered-column-icon {
+  background-image: url('../images/send-to.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+}
+
+.metabox-prefs .is_registered-column-icon {
+  background-image: none;
+  display: inline;
+  height: auto;
+  width: auto;
+}
+.metabox-prefs .is_registered-column-icon .screen-reader-text {
+  display: inline;
+  visibility: visible !important;
+  clip: initial;
+  height: auto;
+  width: auto;
+}
+
+th.column-is_registered, td.is_registered column-is_registered {
+  width: 58px;
+}
